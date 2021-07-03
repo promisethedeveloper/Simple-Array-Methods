@@ -20,3 +20,6 @@ console.log(arr2);
 let arr1 = ['a', 'b', 'c', 'd', 'e'];
 const alphabets = arr1.concat(arr2);
 console.log(alphabets);
+
+// JOIN - takes all the elements of an array and forms a string, inputing the argument passed into the method in between
+console.log(alphabets.join("-"));
